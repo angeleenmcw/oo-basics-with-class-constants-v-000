@@ -8,6 +8,11 @@ class Shoe
     @brand = brand
   end
   
+  def condition
+    Shoe.condition = "new"
+    puts "these brands are new"
+  end
+  
   def brand=(brand)
     @brand = brand
     BRANDS << brand
