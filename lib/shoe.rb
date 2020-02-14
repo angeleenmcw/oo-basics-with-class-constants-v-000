@@ -5,7 +5,7 @@ class Shoe
   BRANDS = []
 
   def condition
-    Shoe.new. = "new"
+    Shoe.new.each do | = "new"
     puts "Your shoe is as good as new!"
   end
   
