@@ -4,8 +4,11 @@ class Shoe
   
   BRANDS = []
 
-  def condition
-    Shoe.new.each do | = "new"
+  def initialize(brand)
+    @brand = brand
+  end
+  
+ self.new
     puts "Your shoe is as good as new!"
   end
   
